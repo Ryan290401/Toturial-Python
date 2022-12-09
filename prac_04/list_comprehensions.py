@@ -54,3 +54,10 @@ for single_full_name in full_names:
         split_name = single_full_name.split()
         over_than_11.append(split_name[1])
 print(over_than_11)
+
+
+# for i in range(0, 5):
+#     names_filtered = [name for name in full_names if len(name) > 11]
+# for name in names_filtered:
+#     last_names.append(name.split()[-1])
+# print(",".join(last_names))
